@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
-    <RootNamespace>sj2324_5ehif_cooking_user.Application</RootNamespace>
+    <RootNamespace>sj2324_5ehif_cooking_user_relations.Application</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
@@ -12,14 +12,6 @@
     <PackageReference Include="Bogus" Version="34.*" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="7.*" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.*" />
-    <PackageReference Include="NetEncryptionLibrary" Version="5.16.0" />
-    <PackageReference Include="SharpZipLib" Version="1.4.2" />
-    <PackageReference Include="SimpleISO7064" Version="1.0.0" />
-  </ItemGroup>
-
-
-  <ItemGroup>
-    <Folder Include="models\" />
   </ItemGroup>
 
 </Project>
