@@ -1,12 +1,16 @@
 ﻿# Build and runtime artifacts
 bin/
 obj/
-# Build and runtime artifacts
-**/bin/
-**/obj/
+*.exe
+*.dll
+*.pdb
+*.user
+*.old
+*.bak
 
 # JetBrains Rider specific
 .idea/
+*.sln.iml
 
 # User-specific files
 *.rsuser
@@ -33,11 +37,24 @@ $RECYCLE.BIN/
 # VS Code directories
 .vscode/
 
-# Tye
-.tye/
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
 
-# Visual Studio for Mac
-.vscode/
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Rider
+.idea/
+
+# Windows
+*.Windows.md
+
+# JetBrains Rider
+.idea/
 
 # Rider
 .idea/
@@ -45,8 +62,65 @@ $RECYCLE.BIN/
 # NUnit
 TestResult.xml
 
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+
+# Tye
+.tye/
+
+# Visual Studio for Mac
+.vscode/
+.vscode/
+.vscode/
+
+# Rider
+.idea/
+
+# Unreal Engine
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+StagedBuilds/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Rider
+.idea/
+
 # macOS
 .DS_Store
 .AppleDouble
 .LSOverride
 
+# Rider
+.idea/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
